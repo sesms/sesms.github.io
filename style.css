@@ -1,0 +1,23 @@
+.login-main {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    margin: 0 auto;
+}
+.login-main header {
+    margin-top: 150px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+.login-main header, .login-main .onebox, .login-main .onebox .layui-input-inline {
+    margin-bottom: 15px;
+}
+.login-main .onebox .layui-input-inline, .login-main .onebox .layui-input-inline input, .login-main .onebox .layui-input-inline button {
+    width: 100%;
+}
